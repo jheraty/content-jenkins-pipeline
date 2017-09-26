@@ -9,7 +9,7 @@ pipeline {
             }
           }
         stage('run') {
-            step {
+            steps {
             sh 'java -jar rectangle.jar 7 9'
         }
       }
